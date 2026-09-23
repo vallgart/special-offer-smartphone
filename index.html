@@ -1,50 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru" data-theme="light">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#FF0032" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0F1214" media="(prefers-color-scheme: dark)">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Акция «Скидка за смартфон» — 3 месяца связи за 0 сум</title>
 
-<title>Акция «Скидка за смартфон» — 3 месяца связи за 0 сум | Mobiuz</title>
-<meta name="description" content="Купите смартфон Samsung, Apple, Honor, Xiaomi и Infinix в точках продаж — участниках акции и получите сертификат на тариф Mazza 70 со скидкой 100% на 3 месяца. Акция действует до 31 декабря 2026 года.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-<!-- Open Graph / Twitter -->
-<meta property="og:type" content="website">
-<meta property="og:locale" content="ru_RU">
-<meta property="og:title" content="Акция «Скидка за смартфон» — 3 месяца связи за 0 сум">
-<meta property="og:description" content="Смартфон Samsung, Apple, Honor, Xiaomi и Infinix + сертификат на тариф Mazza 70 со скидкой 100% на 3 месяца. Выгода до 180 000 сум.">
-<meta property="og:site_name" content="Mobiuz">
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="canonical" href="https://mobi.uz/ru/special-offers/discounts/aktsiya-skidka-za-smartfon/">
-<link rel="alternate" hreflang="ru" href="https://mobi.uz/ru/special-offers/discounts/aktsiya-skidka-za-smartfon/">
-<link rel="alternate" hreflang="uz" href="https://mobi.uz/uz/special-offers/discounts/aktsiya-skidka-za-smartfon/">
-
-<!-- Фолбэк-шрифт. Заменить на @font-face с MTS Compact / MTS Wide при внедрении -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="assets/css/tokens.css">
-<link rel="stylesheet" href="assets/css/styles.css">
-
-<!-- Тема применяется до первой отрисовки, чтобы не было «вспышки» белого -->
-<script>
-  (function () {
-    try {
-      var saved = localStorage.getItem('mobiuz-theme');
-      var dark  = saved ? saved === 'dark'
-                        : matchMedia('(prefers-color-scheme: dark)').matches;
-      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
-    } catch (e) { /* приватный режим — остаёмся на светлой теме */ }
-  })();
-</script>
-
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-<a class="skip-link" href="#main">Перейти к содержимому</a>
 
 <!-- ======================================================================
      SVG-спрайт: все иконки в одном месте, подключаются через <use>
@@ -75,47 +44,9 @@
 <!-- ======================================================================
      ШАПКА
      ====================================================================== -->
-<header class="header" id="header">
-  <div class="container header__inner">
-    <a class="logo" href="#" aria-label="Mobiuz — на главную">
-      <span class="logo__mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24"><use href="#i-bolt"/></svg>
-      </span>
-      mobiuz
-    </a>
 
-    <nav class="nav" id="nav" aria-label="Разделы страницы">
-      <a class="nav__link" href="#benefits">Что даёт акция</a>
-      <a class="nav__link" href="#how">Как участвовать</a>
-      <a class="nav__link" href="#tariff">Тариф</a>
-      <a class="nav__link" href="#shops">Где купить</a>
-      <a class="nav__link" href="#faq">Вопросы</a>
-      <!-- Дубль CTA: виден только в раскрытом мобильном меню -->
-      <a class="btn btn--primary nav__cta" href="#shops">Получить скидку</a>
-    </nav>
-
-    <div class="header__actions">
-      <div class="lang" role="group" aria-label="Язык интерфейса">
-        <button class="lang__btn" type="button" aria-pressed="true">RU</button>
-        <button class="lang__btn" type="button" aria-pressed="false">UZ</button>
-      </div>
-
-      <button class="icon-btn" id="theme-toggle" type="button"
-              aria-label="Переключить тему оформления">
-        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-moon-dark"/></svg>
-        <svg class="icon-sun"  viewBox="0 0 24 24" aria-hidden="true"><use href="#i-sun"/></svg>
-      </button>
-
-      <a class="btn btn--primary btn--sm" href="#shops">Получить скидку</a>
-
-      <button class="icon-btn burger" id="burger" type="button"
-              aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
-        <svg class="icon-menu"  viewBox="0 0 24 24" aria-hidden="true"><use href="#i-menu"/></svg>
-      </button>
-    </div>
-
-    <div class="progress" id="progress" aria-hidden="true"></div>
-  </div>
+<header style="background-color: #ccc; padding: 40px; text-align: center;">
+  HEADER
 </header>
 
 <main id="main">
@@ -141,10 +72,6 @@
     <div class="container hero__inner">
 
       <div class="hero__content">
-        <!-- <div class="hero__badges">
-          <span class="badge badge--live"><span class="dot" aria-hidden="true"></span>Акция активна</span>
-          <span class="badge">16.01.2026 — 31.12.2026</span>
-        </div> -->
 
         <h1 class="hero__title">Скидка за смартфон:<br>3 месяца связи за <em>0 сум</em></h1>
 
@@ -165,17 +92,6 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg>
           Данное предложение действует до 31.12.2026 года
         </p>
-
-        <!-- Таймер: дата окончания задаётся в data-атрибуте -->
-        <!-- <div class="countdown" id="countdown" data-deadline="2026-12-31T23:59:59+05:00">
-          <p class="countdown__label">До окончания акции осталось</p>
-          <div class="countdown__units" role="timer" aria-live="off">
-            <div class="countdown__unit"><b class="countdown__num" data-cd="days">—</b><span class="countdown__cap">дней</span></div>
-            <div class="countdown__unit"><b class="countdown__num" data-cd="hours">—</b><span class="countdown__cap">часов</span></div>
-            <div class="countdown__unit"><b class="countdown__num" data-cd="minutes">—</b><span class="countdown__cap">минут</span></div>
-            <div class="countdown__unit"><b class="countdown__num" data-cd="seconds">—</b><span class="countdown__cap">секунд</span></div>
-          </div>
-        </div> -->
 
         <dl class="hero__stats">
           <div class="stat">
@@ -292,13 +208,7 @@
 
         <div class="grid grid--3">
           <article class="card benefit reveal" style="--reveal-delay:300ms">
-            <img style="width: 100%; height: auto;" src="http://mobi.uz/upload/mobichess/samsung-a07-fb-ru.jpg" alt="Смартфон Samsung Galaxy A07" />
-          </article>
-          <article class="card benefit reveal" style="--reveal-delay:300ms">
-            <img style="width: 100%; height: auto;" src="http://mobi.uz/upload/mobichess/samsung-a07-fb-ru.jpg" alt="Смартфон Samsung Galaxy A07" />
-          </article>
-          <article class="card benefit reveal" style="--reveal-delay:300ms">
-            <img style="width: 100%; height: auto;" src="http://mobi.uz/upload/mobichess/samsung-a07-fb-ru.jpg" alt="Смартфон Samsung Galaxy A07" />
+            <img style="width: 100%; height: auto; border-radius: 24px;" src="http://mobi.uz/upload/mobichess/samsung-a07-fb-ru.jpg" alt="Смартфон Samsung Galaxy A07" />
           </article>
         </div>
     </div>
@@ -352,8 +262,6 @@
                 aria-selected="true" aria-controls="panel-all">Все города</button>
         <button class="tab" id="tab-tashkent" type="button" role="tab"
                 aria-selected="false" aria-controls="panel-tashkent" tabindex="-1">Ташкент</button>
-        <!-- <button class="tab" id="tab-samarkand" type="button" role="tab"
-                aria-selected="false" aria-controls="panel-samarkand" tabindex="-1">Самарканд</button> -->
       </div>
 
       <div class="tabpanel" id="panel-all" role="tabpanel" aria-labelledby="tab-all" tabindex="0">
@@ -468,60 +376,9 @@
 
 </main>
 
-<!-- ======================================================================
-     ПОДВАЛ
-     ====================================================================== -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <div>
-        <a class="logo" href="#" aria-label="Mobiuz — на главную">
-          <span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-bolt"/></svg></span>
-          mobiuz
-        </a>
-        <p class="footer__about">
-          Шаблон посадочной страницы акции. Вёрстка выполнена в визуальном языке
-          дизайн-системы МТС «Гранат»: токены, типографика, радиусы и цвета
-          вынесены в отдельный файл и меняются в одном месте.
-        </p>
-      </div>
 
-      <nav aria-labelledby="f-1">
-        <p class="footer__title" id="f-1">Акция</p>
-        <ul class="footer__list">
-          <li><a href="#benefits">Что даёт акция</a></li>
-          <li><a href="#how">Как участвовать</a></li>
-          <li><a href="#tariff">Тариф Mazza 70</a></li>
-          <li><a href="#terms">Условия</a></li>
-        </ul>
-      </nav>
-
-      <nav aria-labelledby="f-2">
-        <p class="footer__title" id="f-2">Помощь</p>
-        <ul class="footer__list">
-          <li><a href="#faq">Вопросы и ответы</a></li>
-          <li><a href="#shops">Точки продаж</a></li>
-          <li><a href="#">Контакт-центр</a></li>
-          <li><a href="#">Офисы обслуживания</a></li>
-        </ul>
-      </nav>
-
-      <nav aria-labelledby="f-3">
-        <p class="footer__title" id="f-3">Ещё</p>
-        <ul class="footer__list">
-          <li><a href="#">Тарифы</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">О компании</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="footer__bottom">
-      <p>© 2026 Демонстрационный шаблон. Не является офертой.</p>
-      <p>Цены указаны в сумах с учётом НДС.</p>
-    </div>
-  </div>
+<footer style="background-color: #ccc; padding: 40px; text-align: center;">
+  FOOTER
 </footer>
 
 <!-- Без JS анимации появления отключаются, чтобы контент не остался невидимым -->

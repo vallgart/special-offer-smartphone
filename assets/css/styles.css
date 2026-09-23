@@ -79,7 +79,7 @@ ul, ol { padding: 0; list-style: none; }
 }
 :focus:not(:focus-visible) { outline: none; }
 
-::selection { background: var(--mts-red); color: #fff; }
+
 
 /* Скроллбар */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
@@ -446,7 +446,7 @@ ul, ol { padding: 0; list-style: none; }
 /* ==========================================================================
    05. ХЛЕБНЫЕ КРОШКИ
    ========================================================================== */
-.breadcrumbs { padding-block: var(--sp-12) 0; }
+.breadcrumbs { padding-block: var(--sp-12); }
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -520,8 +520,6 @@ ul, ol { padding: 0; list-style: none; }
 .hero__title em {
   font-style: normal;
   color: var(--mts-red);
-  /* Мягкое подчёркивание-маркер под ключевым словом */
-  background: linear-gradient(transparent 62%, var(--mts-red-soft) 0);
 }
 
 .hero__lead {
@@ -1367,7 +1365,7 @@ ul, ol { padding: 0; list-style: none; }
 }
 
 @media (max-width: 620px) {
-  .hero__stats { grid-template-columns: 1fr; gap: var(--sp-12); }
+  .hero__stats { grid-template-columns: 1fr; gap: var(--sp-12); text-align: center; }
   .hero__cta .btn { width: 100%; }
   /* Карточки перекрывали бы экран макета — на телефоне они лишние,
      те же цифры уже показаны в блоке .hero__stats */
